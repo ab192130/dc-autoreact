@@ -11,8 +11,23 @@ client.on('message', message => {
 //        }
     
      message.react("👍");
-     message.react("👎")
+     message.react("👎");
+    
+    if (message.attachments.size > 0) {
+        
+        // If there is any attachment
+        // We can add option to limit reactions to only messages with attachments later
+        
+        // Code goes here...
+        
+//         if (message.attachments.every(attachIsImage)){
+//             //something
+//         }
+    }
+ 
 });
+
+
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);//BOT_TOKEN is the Client Secret

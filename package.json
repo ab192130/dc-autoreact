@@ -1,25 +1,14 @@
 {
 
   "name": "Discord Auto React Bot",
-
   "description": "Auto reaction bot for Discord",
-
   "version": "0.0.1",
-
   "main": "index.js",
-
   "scripts": {
-
-    "start": "node bot.js"
-
+    "start": "node index.js"
   },
-
   "dependencies": {
-
-    "discord.js": "11.1.0",
-
+    "discord.js": "^11.3.0",
     "request": "2.81.0"
-
   }
-
 }

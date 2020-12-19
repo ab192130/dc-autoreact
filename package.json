@@ -1,6 +1,6 @@
 {
 
-  "name": "Discord Auto React Bot",
+  "name": "dc-autoreact",
   "description": "Auto reaction bot for Discord",
   "version": "0.0.1",
   "main": "index.js",

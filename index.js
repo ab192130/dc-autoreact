@@ -29,6 +29,14 @@ client.on('message', message => {
  
 });
 
+  
+// // To be sure wether message has image attachment
+// function attachIsImage(msgAttach) {
+//     var url = msgAttach.url;
+//     //True if this url is a png image.
+//     return url.indexOf("png", url.length - "png".length /*or 3*/) !== -1;
+// }
+
 
 
 // THIS  MUST  BE  THIS  WAY

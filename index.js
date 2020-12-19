@@ -9,6 +9,9 @@ client.on('message', message => {
     if (message.content === 'ping') {
        message.reply('pong');
        }
+    
+     message.react("👍");
+     message.react("👎")
 });
 
 // THIS  MUST  BE  THIS  WAY
